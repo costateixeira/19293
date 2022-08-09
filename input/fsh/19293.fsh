@@ -5,14 +5,13 @@ Parent: Element
 
 Profile: group
 Parent: BackboneElement
-* . ^short = " "
-* . ^definition = "No specific data type assigned""
+* . ^short = " group "
+* . ^definition = "Grouping"
 
 
 
 Logical:        dispenseRecord
 Id:             iso-19293-dispense-record
-Title:          "Dispense Record"
 Description:    "A record of dispensing of a medicinal product"
 
 * identifier 0..* untyped "Dispense identifier" "A business identifier of the Dispense"
